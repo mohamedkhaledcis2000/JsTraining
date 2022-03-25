@@ -1,0 +1,35 @@
+
+{    
+    "users":[
+        {
+            "id": 1,
+            "name":"Mohamed",
+            "email":"mohamed@example.com"
+        },
+        {
+            "id": 2,
+            "name":"Ramzy",
+            "email":"Ramzy@example.com"
+        },
+        {
+            "id": 3,
+            "name":"Nader",
+            "email":"Nader@example.com"
+        },
+        {
+            "id": 4,
+            "name":"Nabil",
+            "email":"Nabil@example.com"
+        },
+        {
+            "id": 5,
+            "name":"Ebrahim",
+            "email":"Ebrahim@example.com"
+        },
+        {
+            "id": 6,
+            "name":"Eslam",
+            "email":"Eslam@example.com"
+        }
+    ]
+}
