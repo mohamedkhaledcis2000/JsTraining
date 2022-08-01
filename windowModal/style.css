@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(18, 219, 85);
+  font-family: "Cairo", sans-serif;
+
+  font-family: "Righteous", cursive;
+
+  font-family: "Roboto", sans-serif;
+}
+.hide {
+  display: none;
+}
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+/* start buttons */
+.show-modal {
+  width: 120px;
+  height: 30px;
+  border-radius: 20px;
+  border: 0px;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px;
+  margin: 20px 10px;
+  cursor: pointer;
+}
+.modal {
+  width: 550px;
+  height: 400px;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px;
+  margin: auto;
+  padding: 20px 20px;
+  position: relative;
+  top: 20px;
+  z-index: 3;
+}
+.close-modal {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 490px;
+  background-color: #fff;
+  border: 0px;
+  font-size: 30px;
+  top: 15px;
+  cursor: pointer;
+}
+.modal h1 {
+  margin: 10px 10px;
+}
+.modal p {
+  margin: 10px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+/* end buttons */
